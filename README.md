@@ -6,6 +6,7 @@ Server repo: [Here] (https://github.com/EnVoY123/introsde-2015-assignment-3-serv
 ### How to run the program?
 In the shell, please, go to the directory of this project and run this command
 
+	ant install
 	ant execute.client
 
 
