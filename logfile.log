@@ -1,0 +1,407 @@
+================Request 1===================
+Result ==> [introsde.assignment.soap.Person@47987356, introsde.assignment.soap.Person@22ef9844, introsde.assignment.soap.Person@6283d8b8, introsde.assignment.soap.Person@3b6ddd1d, introsde.assignment.soap.Person@3f6b0be5, introsde.assignment.soap.Person@611889f4, introsde.assignment.soap.Person@1da2cb77, introsde.assignment.soap.Person@48f278eb, introsde.assignment.soap.Person@2f217633, introsde.assignment.soap.Person@a530d0a, introsde.assignment.soap.Person@1a18644, introsde.assignment.soap.Person@5acf93bb]
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<people>
+    <person>
+        <personId>1</personId>
+        <firstname>Johnson</firstname>
+        <lastname>Mister</lastname>
+        <birthdate>1941-08-06</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>2</personId>
+        <firstname>Wayne</firstname>
+        <lastname>Rooney</lastname>
+        <birthdate>1982-06-08</birthdate>
+        <currentHealth>
+            <measure>
+                <dateRegistered>2006-12-09</dateRegistered>
+                <mid>454</mid>
+                <measureType>height</measureType>
+                <measureValue>72.3</measureValue>
+                <measureValueType>double</measureValueType>
+            </measure>
+        </currentHealth>
+    </person>
+    <person>
+        <personId>4</personId>
+        <firstname>Phil</firstname>
+        <lastname>Jones</lastname>
+        <birthdate>1977-12-02</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>5</personId>
+        <firstname>Ryan</firstname>
+        <lastname>Giggs</lastname>
+        <birthdate>1975-12-02</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>6</personId>
+        <firstname>Ander</firstname>
+        <lastname>Herrera</lastname>
+        <birthdate>1978-12-02</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>7</personId>
+        <firstname>Morgan</firstname>
+        <lastname>Schnaiderlin</lastname>
+        <birthdate>1982-12-02</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>801</personId>
+        <firstname>Memphis</firstname>
+        <lastname>Depay</lastname>
+        <birthdate>1987-12-25</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>1266</personId>
+        <firstname>Maruane</firstname>
+        <lastname>Fellaini</lastname>
+        <birthdate>1950-01-01</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>4101</personId>
+        <firstname>Marcos</firstname>
+        <lastname>Rojo</lastname>
+        <birthdate>1990-08-06</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>4306</personId>
+        <firstname>Sergio</firstname>
+        <lastname>Romero</lastname>
+        <birthdate>1972-12-06</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>4309</personId>
+        <firstname>Michael</firstname>
+        <lastname>Carrick</lastname>
+        <birthdate>1972-12-06</birthdate>
+        <currentHealth/>
+    </person>
+    <person>
+        <personId>4351</personId>
+        <firstname>Chris</firstname>
+        <lastname>Smalling</lastname>
+        <birthdate>1972-12-06</birthdate>
+        <currentHealth/>
+    </person>
+</people>
+================Request 2===================
+Result ==> Wayne
+Result ==> Rooney
+Result ==> 1982-06-08
+Measure:
+height
+72.3
+================Request 3===================
+Result ==> Johnson
+Result ==> Mister
+Result ==> 1941-08-06
+================Request 4===================
+Result ==> Don
+Result ==> Carleone
+Result ==> 1941-08-06
+================Request 5===================
+Result ==> Successful deleted person with ID 4907
+================Request 6===================
+Result ==> [introsde.assignment.soap.Measure@659499f1, introsde.assignment.soap.Measure@51e69659, introsde.assignment.soap.Measure@47e2e487, introsde.assignment.soap.Measure@201a4587, introsde.assignment.soap.Measure@61001b64, introsde.assignment.soap.Measure@4310d43, introsde.assignment.soap.Measure@54a7079e, introsde.assignment.soap.Measure@26e356f0, introsde.assignment.soap.Measure@47d9a273, introsde.assignment.soap.Measure@4b8ee4de, introsde.assignment.soap.Measure@27f981c6, introsde.assignment.soap.Measure@1b11171f, introsde.assignment.soap.Measure@1151e434, introsde.assignment.soap.Measure@2dc54ad4, introsde.assignment.soap.Measure@4659191b, introsde.assignment.soap.Measure@55634720, introsde.assignment.soap.Measure@4b0d79fc, introsde.assignment.soap.Measure@4c1909a3, introsde.assignment.soap.Measure@428640fa, introsde.assignment.soap.Measure@d9345cd, introsde.assignment.soap.Measure@2d710f1a, introsde.assignment.soap.Measure@29215f06, introsde.assignment.soap.Measure@59505b48, introsde.assignment.soap.Measure@4efac082, introsde.assignment.soap.Measure@6bd61f98, introsde.assignment.soap.Measure@48aca48b, introsde.assignment.soap.Measure@13fd2ccd, introsde.assignment.soap.Measure@b9b00e0, introsde.assignment.soap.Measure@506ae4d4, introsde.assignment.soap.Measure@7d4f9aae, introsde.assignment.soap.Measure@72e5a8e, introsde.assignment.soap.Measure@54e1c68b, introsde.assignment.soap.Measure@53aac487, introsde.assignment.soap.Measure@52b1beb6, introsde.assignment.soap.Measure@273e7444, introsde.assignment.soap.Measure@7db12bb6, introsde.assignment.soap.Measure@783a467b]
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<healthProfile-history>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4652</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4702</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4704</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4752</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4754</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4756</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4758</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4760</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4802</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4804</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4806</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4808</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4810</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4812</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-07</dateRegistered>
+        <mid>4852</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-03</dateRegistered>
+        <mid>4552</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-12-03</dateRegistered>
+        <mid>4602</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-08-06</dateRegistered>
+        <mid>4868</mid>
+        <measureType>weight</measureType>
+        <measureValue>128</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-08-06</dateRegistered>
+        <mid>4870</mid>
+        <measureType>weight</measureType>
+        <measureValue>128</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-08-06</dateRegistered>
+        <mid>4902</mid>
+        <measureType>weight</measureType>
+        <measureValue>128</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-08-06</dateRegistered>
+        <mid>4904</mid>
+        <measureType>weight</measureType>
+        <measureValue>128</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2015-08-06</dateRegistered>
+        <mid>4906</mid>
+        <measureType>weight</measureType>
+        <measureValue>128</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2014-11-27</dateRegistered>
+        <mid>3254</mid>
+        <measureType>weight</measureType>
+        <measureValue>74</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2014-11-27</dateRegistered>
+        <mid>4308</mid>
+        <measureType>weight</measureType>
+        <measureValue>74</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2014-11-27</dateRegistered>
+        <mid>4311</mid>
+        <measureType>weight</measureType>
+        <measureValue>74</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2014-11-27</dateRegistered>
+        <mid>4353</mid>
+        <measureType>weight</measureType>
+        <measureValue>74</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2014-11-21</dateRegistered>
+        <mid>1801</mid>
+        <measureType>weight</measureType>
+        <measureValue>72.0</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-12-09</dateRegistered>
+        <mid>1287</mid>
+        <measureType>weight</measureType>
+        <measureValue>72.0</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-12-09</dateRegistered>
+        <mid>1754</mid>
+        <measureType>weight</measureType>
+        <measureValue>71.0</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-08-06</dateRegistered>
+        <mid>4858</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-08-06</dateRegistered>
+        <mid>4860</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-08-06</dateRegistered>
+        <mid>4862</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-08-06</dateRegistered>
+        <mid>4864</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2011-08-06</dateRegistered>
+        <mid>4866</mid>
+        <measureType>weight</measureType>
+        <measureValue>78</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2007-12-09</dateRegistered>
+        <mid>352</mid>
+        <measureType>weight</measureType>
+        <measureValue>86</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2006-12-09</dateRegistered>
+        <mid>1</mid>
+        <measureType>weight</measureType>
+        <measureValue>72.3</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+    <measure>
+        <dateRegistered>2006-12-09</dateRegistered>
+        <mid>451</mid>
+        <measureType>weight</measureType>
+        <measureValue>72.3</measureValue>
+        <measureValueType>double</measureValueType>
+    </measure>
+</healthProfile-history>
+================Request 7===================
+Measures:
+weight
+Measures:
+height
+Measures:
+steps
+Measures:
+bmi
+Measures:
+bloodpressure
+Measures:
+heartrate
+Result ==> [introsde.assignment.soap.MeasureType@4a883b15, introsde.assignment.soap.MeasureType@25641d39, introsde.assignment.soap.MeasureType@7b36aa0c, introsde.assignment.soap.MeasureType@5824a83d, introsde.assignment.soap.MeasureType@537f60bf, introsde.assignment.soap.MeasureType@5677323c]
+================Request 8===================
+Result ==> 72.3
+Result ==> height
+Result ==> 454
+Result ==> 2006-12-09
+================Request 9===================
+Result ==> 78
+Result ==> weight
+Result ==> 4908
+Result ==> 2011-08-06
+================Request 10===================
+Result ==> 128
+Result ==> weight
+Result ==> 4908
+Result ==> 2015-08-06
